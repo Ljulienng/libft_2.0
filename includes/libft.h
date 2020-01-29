@@ -6,7 +6,7 @@
 /*   By: julienngy <julienngy@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/10 15:01:10 by jnguyen           #+#    #+#             */
-/*   Updated: 2020/01/28 16:48:36 by julienngy        ###   ########.fr       */
+/*   Updated: 2020/01/29 13:14:43 by julienngy        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include "ft_printf.h"
+#include "get_next_line.h"
 
 #ifndef BUFFER_SIZE
 # define BUFFER_SIZE 32

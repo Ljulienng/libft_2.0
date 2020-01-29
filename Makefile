@@ -6,7 +6,7 @@
 #    By: julienngy <julienngy@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/10 14:56:19 by jnguyen           #+#    #+#              #
-#    Updated: 2020/01/28 16:39:07 by julienngy        ###   ########.fr        #
+#    Updated: 2020/01/29 13:11:59 by julienngy        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -77,7 +77,8 @@ SRCS = ft_memset.c \
 	ft_lstdelone_bonus.c \
 	ft_lstclear_bonus.c \
 	ft_lstiter_bonus.c \
-	ft_lstmap_bonus.c
+	ft_lstmap_bonus.c \
+	get_next_line.c
 
 PRINTF_FILES = $(addprefix $(PRINTF_PATH), $(PRINTF_SRCS))
 LIBFT_FILES = $(addprefix $(LIBFT_PATH), $(SRCS))
