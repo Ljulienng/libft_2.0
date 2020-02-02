@@ -6,7 +6,7 @@
 /*   By: julienngy <julienngy@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/04 11:27:26 by jnguyen           #+#    #+#             */
-/*   Updated: 2020/01/29 13:08:38 by julienngy        ###   ########.fr       */
+/*   Updated: 2020/02/02 22:22:32 by julienngy        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,6 @@
 #include <string.h>
 #include "libft.h"
 
-int		gnl_return(char **str, char **line, int fd,int ret);
-int		get_new_line(char **str, char **line, int fd, int ret);
 int		get_next_line(int fd, char **line);
 
 #endif
