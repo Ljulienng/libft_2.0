@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   buffer.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jnguyen <jnguyen@student.42.fr>            +#+  +:+       +#+        */
+/*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/16 14:01:49 by jnguyen           #+#    #+#             */
-/*   Updated: 2020/01/07 14:08:47 by jnguyen          ###   ########.fr       */
+/*   Updated: 2020/10/19 19:48:56 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,10 @@
 
 void		reset_buffer(t_pf *params)
 {
-	params->ret += write(1, params->str, params->pos);
+	if (params->has_fd)
+		params->ret += write(params->fd, params->str, params->pos);
+	else
+		params->ret += write(1, params->str, params->pos);
 	params->pos = 0;
 }
 

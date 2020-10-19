@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: julienngy <julienngy@student.42.fr>        +#+  +:+       +#+         #
+#    By: user42 <user42@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/10 14:56:19 by jnguyen           #+#    #+#              #
-#    Updated: 2020/01/29 13:11:59 by julienngy        ###   ########.fr        #
+#    Updated: 2020/10/19 19:49:29 by user42           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,6 +26,7 @@ PRINTF_SRCS =	pf_c.c \
 				ft_flag1.c \
 				ft_init.c\
 				ft_printf.c \
+				ft_printf_fd.c \
 				buffer.c  \
 				ft_converters.c \
 				ft_width.c \

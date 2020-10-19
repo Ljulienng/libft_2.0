@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julienngy <julienngy@student.42.fr>        +#+  +:+       +#+        */
+/*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/22 11:00:45 by jnguyen           #+#    #+#             */
-/*   Updated: 2020/01/28 16:39:33 by julienngy        ###   ########.fr       */
+/*   Updated: 2020/10/19 19:21:28 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,8 @@ typedef struct	s_pf
 	char	str[BUFF_SIZE];
 	char	*format;
 	char	*flags;
+	int		has_fd;
+	int		fd;
 	int		ret;
 	int		min_width;
 	int		has_width;
@@ -46,6 +48,8 @@ typedef struct	s_pf
 }				t_pf;
 
 int				ft_printf(const char *format, ...);
+int				ft_printf_fd(int fd, const char *format, ...);
+
 
 void			reset_buffer(t_pf *params);
 void			add_to_buffer(char c, t_pf *params);

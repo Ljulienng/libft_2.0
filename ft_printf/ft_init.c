@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_init.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jnguyen <jnguyen@student.42.fr>            +#+  +:+       +#+        */
+/*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/27 13:05:58 by jnguyen           #+#    #+#             */
-/*   Updated: 2020/01/07 14:07:58 by jnguyen          ###   ########.fr       */
+/*   Updated: 2020/10/19 18:33:44 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ void	pf_init(t_pf *params)
 	params->ret = 0;
 	params->noprint = 0;
 	params->null = 0;
+	params->has_fd = 0;
 }
 
 void	reset_flags(t_pf *params)
