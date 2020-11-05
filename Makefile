@@ -6,7 +6,7 @@
 #    By: user42 <user42@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/10 14:56:19 by jnguyen           #+#    #+#              #
-#    Updated: 2020/10/19 19:49:29 by user42           ###   ########.fr        #
+#    Updated: 2020/11/05 16:37:02 by user42           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,6 +51,7 @@ SRCS = ft_memset.c \
 	ft_strrchr.c \
 	ft_strncmp.c \
 	ft_strlcpy.c \
+	ft_strcat \
 	ft_strlcat.c \
 	ft_strnstr.c \
 	ft_atoi.c \

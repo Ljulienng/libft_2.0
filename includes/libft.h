@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julienngy <julienngy@student.42.fr>        +#+  +:+       +#+        */
+/*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/10 15:01:10 by jnguyen           #+#    #+#             */
-/*   Updated: 2020/01/29 13:14:43 by julienngy        ###   ########.fr       */
+/*   Updated: 2020/11/05 16:37:33 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ void			ft_strdel(char **str);
 int				get_next_line(int fd, char **line);
 char			*ft_strnjoin(char *s1, char const *s2, size_t n);
 char			*ft_strcpy(char *dest, const char *src);
-
+char			*ft_strcat(char *dest, const char *src);
 
 
 
